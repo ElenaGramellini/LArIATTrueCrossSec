@@ -1,4 +1,6 @@
 # LArIATTrueCrossSec
+Please, read this readme in your terminal... I swear it looks better than this... 
+
 This folder contains the following:
 
 1. the tables for the Geant4.10.1.p3 cross section for PiMinus and KPlus on Argon ( KaonPlusG4.txt  PionMinusG4.txt)
