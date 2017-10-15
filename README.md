@@ -10,17 +10,14 @@ A bit more details in what follows...
 
 
 1. Table are from  Geant4.10.1.p3. 
-
- Geant4 version Name: geant4-10-01-patch-03    (5-February-2016)
-                      Copyright : Geant4 Collaboration
-                      Reference : NIM A 506 (2003), 250-303
-                            WWW : http://cern.ch/geant4
-
+Geant4 version Name: geant4-10-01-patch-03    (5-February-2016)
+       	       	     Copyright : Geant4 Collaboration
+		     Reference : NIM A 506 (2003), 250-303
+		     WWW : http://cern.ch/geant4
 
 The following models are applied
 ---------------------------------------------------
                            Hadronic Processes for pi-
-
   Process: pi-Inelastic
         Model:                      QGSP: 12 GeV ---> 100 TeV
         Model:                      FTFP: 9.5 GeV ---> 25 GeV
