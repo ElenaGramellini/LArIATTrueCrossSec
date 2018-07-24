@@ -8,8 +8,7 @@ This folder contains the following:</br>
 	- setup root v6_08_06g -q debug:e14:nu</br>
 	- setup geant4 v4_10_1_p03f -q debug:e14 </br>
 	- g4had Kaon+_QGSP_BERT_000.in</br> 
-1. the tables for the Geant4.10.1.p3 cross section for PiMinus and KPlus on Argon ( KaonPlusG4.txt  PionMinusG4.txt, etc)</br>
-1.5 the script to nicely plot the tables.</br>
+1. the tables for the Geant4.10.1.p3 cross section for PiMinus and KPlus on Argon ( KaonPlusG4.txt  PionMinusG4.txt, etc) and  the script to nicely plot the tables.</br>
     Usage: python G4XSReadTable.py <tableName.txt> </br>
 2. the cross section resulting from the application of the sliced TPC method on true quantities (true energy deposition with simIDE and fix slice length of 0.47 cm)
   (TrueXSKaon.root TrueXSPion.root)</br>

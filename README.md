@@ -17,34 +17,34 @@ This folder contains the following:</br>
 A bit more details in what follows...
 
 
-1. Table are from  Geant4.10.1.p3. 
-Geant4 version Name: geant4-10-01-patch-03    (5-February-2016)
-       	       	     Copyright : Geant4 Collaboration
-		     Reference : NIM A 506 (2003), 250-303
-		     WWW : http://cern.ch/geant4
+1. The tables are from  Geant4.10.1.p3. </br>
+Geant4 version Name: geant4-10-01-patch-03    (5-February-2016)</br>
+       	       	     Copyright : Geant4 Collaboration</br>
+		     Reference : NIM A 506 (2003), 250-303</br>
+		     WWW : http://cern.ch/geant4</br>
 
-The following models are applied
+The following models are applied</br>
 ---------------------------------------------------
                            Hadronic Processes for pi-
-  Process: pi-Inelastic
-        Model:                      QGSP: 12 GeV ---> 100 TeV
-        Model:                      FTFP: 9.5 GeV ---> 25 GeV
-        Model:            BertiniCascade: 0 eV  ---> 9.9 GeV
-     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
-                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
-                           below 91 GeV, Glauber-Gribov above 
-     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
-                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
-                           below 91 GeV, Glauber-Gribov above 
-     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+  Process: pi-Inelastic</br>
+        Model:                      QGSP: 12 GeV ---> 100 TeV</br>
+        Model:                      FTFP: 9.5 GeV ---> 25 GeV</br>
+        Model:            BertiniCascade: 0 eV  ---> 9.9 GeV</br>
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV</br>
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections</br> 
+                           below 91 GeV, Glauber-Gribov above </br>
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV</br>
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections</br> 
+                           below 91 GeV, Glauber-Gribov above </br>
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV</br>
 
-  Process: hadElastic
-        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV
-        Model:           hElasticGlauber: 1 GeV ---> 100 TeV
-     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
-     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+  Process: hadElastic</br>
+        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV</br>
+        Model:           hElasticGlauber: 1 GeV ---> 100 TeV</br>
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV</br>
 
-  Process: hBertiniCaptureAtRest
+  Process: hBertiniCaptureAtRest</br>
 
 
 ---------------------------------------------------
