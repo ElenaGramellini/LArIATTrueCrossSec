@@ -46,6 +46,39 @@ The following models are applied</br>
 
   Process: hBertiniCaptureAtRest</br>
 
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: hadElastic</br>
+        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV</br>
+        Model:           hElasticGlauber: 1 GeV ---> 100 TeV</br>
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV</br>
+
+  Process: pi+Inelastic</br>
+        Model:                      FTFP: 4 GeV ---> 100 TeV</br>
+        Model:            BertiniCascade: 0 eV  ---> 5 GeV</br>
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV</br>
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections</br> 
+                           below 91 GeV, Glauber-Gribov above </br>
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV</br>
+
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic</br>
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:      ChipsProtonElasticXS: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV</br>
+
+  Process: protonInelastic</br>
+        Model:                      FTFP: 4 GeV ---> 100 TeV</br>
+        Model:            BertiniCascade: 0 eV  ---> 5 GeV</br>
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV</br>
+
+
 
 ---------------------------------------------------
                            Hadronic Processes for kaon+
