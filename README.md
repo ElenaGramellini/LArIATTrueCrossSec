@@ -2,16 +2,18 @@
 Please, read this readme in your terminal... I swear it looks better than this... 
 
 This folder contains the following:</br>
-0. (Note for future Elena) In order to produce the tables, do 
-	- source /grid/fermiapp/larsoft/products/setup
-	- cd /lariat/app/users/elenag/Hans/G4HadStudies-install/bin
-	- setup root v6_08_06g -q debug:e14:nu
-	- setup geant4 v4_10_1_p03f -q debug:e14 
-	- g4had Kaon+_QGSP_BERT_000.in 
-1. the tables for the Geant4.10.1.p3 cross section for PiMinus and KPlus on Argon ( KaonPlusG4.txt  PionMinusG4.txt)
+0. (Note for future Elena) In order to produce the tables, do</br> 
+	- source /grid/fermiapp/larsoft/products/setup</br>
+	- cd /lariat/app/users/elenag/Hans/G4HadStudies-install/bin</br>
+	- setup root v6_08_06g -q debug:e14:nu</br>
+	- setup geant4 v4_10_1_p03f -q debug:e14 </br>
+	- g4had Kaon+_QGSP_BERT_000.in</br> 
+1. the tables for the Geant4.10.1.p3 cross section for PiMinus and KPlus on Argon ( KaonPlusG4.txt  PionMinusG4.txt, etc)</br>
+1.5 the script to nicely plot the tables.</br>
+    Usage: python G4XSReadTable.py <tableName.txt> </br>
 2. the cross section resulting from the application of the sliced TPC method on true quantities (true energy deposition with simIDE and fix slice length of 0.47 cm)
-  (TrueXSKaon.root TrueXSPion.root)
-3. scripts to plot the comparispn (G4XSKaons.py	    G4XSPions.py)
+  (TrueXSKaon.root TrueXSPion.root)</br>
+3. scripts to plot the comparison (G4XSKaons.py	    G4XSPions.py)</br>
 
 A bit more details in what follows...
 
