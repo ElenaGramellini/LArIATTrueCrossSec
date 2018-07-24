@@ -83,16 +83,16 @@ The following models are applied</br>
 ---------------------------------------------------
                            Hadronic Processes for kaon+
 
-  Process: kaon+Inelastic
-        Model:                      QGSP: 12 GeV ---> 100 TeV
-        Model:                      FTFP: 9.5 GeV ---> 25 GeV
-        Model:            BertiniCascade: 0 eV  ---> 9.9 GeV
-     Cr_sctns:  ChipsKaonPlusInelasticXS: 0 eV  ---> 100 TeV
-     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+  Process: kaon+Inelastic</br>
+        Model:                      QGSP: 12 GeV ---> 100 TeV</br>
+        Model:                      FTFP: 9.5 GeV ---> 25 GeV</br>
+        Model:            BertiniCascade: 0 eV  ---> 9.9 GeV</br>
+     Cr_sctns:  ChipsKaonPlusInelasticXS: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV</br>
 
-  Process: hadElastic
-        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
-     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+  Process: hadElastic</br>
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV</br>
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV</br>
 
 ---------------------------------------------------
 
